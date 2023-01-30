@@ -1,0 +1,6 @@
+### // GET ALL WINES
+GET http://localhost:3002/wines HTTP/1.1
+
+### // SEARCH A WINE BY NAME
+GET http://localhost:3002/wines?name=Emporda HTTP/1.1
+
